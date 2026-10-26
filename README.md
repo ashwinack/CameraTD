@@ -4,6 +4,20 @@ Hand-controlled morphing point clouds over a live webcam feed, built in TouchDes
 
 Open your right hand and a model appears inside a spinning wireframe cage. Open your left hand and the particles flow out like smoke; close it and they swim back together, morphing into the next model.
 
+![Galaxy point cloud bursting into swirling ribbons](docs/screenshots/burst.jpg)
+
+## Screenshots
+
+| Galaxy | Torus knot | Helix |
+|---|---|---|
+| ![Galaxy point cloud in the wireframe cage](docs/screenshots/galaxy.jpg) | ![Torus knot point cloud](docs/screenshots/torusknot.jpg) | ![Double helix point cloud](docs/screenshots/helix.jpg) |
+
+Fully exploded, the particles stream along a curl-noise flow field and stay tethered around the model:
+
+![Helix point cloud exploded into a fluid cloud](docs/screenshots/explode.jpg)
+
+Shown here on the black background; in use, the effect renders over the live webcam feed.
+
 ## Requirements
 
 - TouchDesigner 2025.33230 or newer
