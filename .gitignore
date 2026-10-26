@@ -1,0 +1,14 @@
+# TouchDesigner auto-saves and caches
+Backup/
+TDImportCache/
+*.toe
+!Camera-TD.toe
+*.dmp
+
+# MediaPipe TouchDesigner plugin (~180 MB) - download it, see README
+mediapipe/
+
+# Source character mesh + textures (large, licensed asset) and its point cloud
+pointclouds/*.fbx
+pointclouds/*.fbm/
+pointclouds/Strut Walking.ply
